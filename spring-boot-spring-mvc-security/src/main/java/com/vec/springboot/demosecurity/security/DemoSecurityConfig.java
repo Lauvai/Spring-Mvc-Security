@@ -24,9 +24,8 @@ public class DemoSecurityConfig {
                 "select user_id, pw, active from members where user_id=?");
 
         // define query to retrieve the authorities/roles by username
-        jdbcUserDetailsManager.setAuthoritiesByUsernameQuery(
+        jdbcUserDetailsManager.setAuthoritiesByUsernameQuery("" +
                 "select user_id, role from roles where user_id=?");
-
         return jdbcUserDetailsManager;
     }
 
@@ -55,7 +54,7 @@ public class DemoSecurityConfig {
         return http.build();
     }
 
-     /*
+    /*
     @Bean
     public InMemoryUserDetailsManager userDetailsManager() {
 
