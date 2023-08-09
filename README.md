@@ -1,6 +1,13 @@
 # spring-mvc-security
+
 ### 03.08.2023
-#### Login screen configuration
-#### Invalid username/password error message
-#### Adding logout button
-#### Display user ID and roles
+#### Login Screen Configuration
+#### Invalid username/password Error Message
+#### Adding Logout Button
+#### Display User ID and Roles
+
+### 09.08.2023
+#### Restrict URL's Based on Roles
+#### Configure Custom Page Access Denied
+#### Display Content Based on Roles
+#### JDBC Authentication - Plain Text
