@@ -11,3 +11,5 @@
 #### Configure Custom Page Access Denied
 #### Display Content Based on Roles
 #### JDBC Authentication - Plain Text
+#### JDBC Authentication - BCrypt Encryption
+#### JDBC Authentication - Custom Tables
